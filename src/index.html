@@ -1,603 +1,868 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-</head>
-<body class=" ">
-   
-
-    
-  <nav class="bg-gradient-to-r from-[#1F475D]  to-[#0A5470]">
-    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-      <div class="relative flex h-16 justify-between">
-
-        <div class="flex flex-1 items-center">
-          <div class="flex flex-shrink-0 items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-            </svg>
-            <h1 class="px-3 text-lrg font-bold text-white">This is WCAG</h1>
-            <span class="inline-flex items-center rounded-full bg-gray-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">v2.0</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class=" ">
+    <nav class="bg-gradient-to-r from-[#1F475D] to-[#0A5470]">
+      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="relative flex h-16 justify-between">
+          <div class="flex flex-1 items-center">
+            <div class="flex flex-shrink-0 items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 text-white"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+              <h1 class="px-3 text-lrg font-bold text-white">This is WCAG</h1>
+              <span
+                class="inline-flex items-center rounded-full bg-gray-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                >v2.0</span
+              >
+            </div>
           </div>
-
+          <div
+            class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
+          >
+            <div class="text-sm leading-6 text-white pr-2">Powered by</div>
+            <img src="https://thisiswcag.com/assets/CANAXESS.svg" />
+          </div>
         </div>
-        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-          <div class="text-sm leading-6 text-white pr-2">Powered by</div>
-          <img src="https://thisiswcag.com/assets/CANAXESS.svg">
-  
+      </div>
+    </nav>
 
+    <div
+      class="pb-12 pt-5 shadow"
+      style="
+        background-image: url(https://heroicons.com/_next/static/media/beams.1fcfd97b.jpg);
+      "
+    >
+      <div class="mx-auto max-w-7xl px-6 lg:px-8 grid grid-cols-2">
+        <div class="mx-auto max-w-2xl lg:mx-0">
+          <h2
+            class="mt-2 text-4xl font-bold tracking-tight text-[#0A5470] sm:text-6xl"
+          >
+            Web accessibility simplified
+          </h2>
+          <p class="mt-6 text-lg leading-6 font-normal text-black">
+            Build and test against WCAG consistently. Understand each success
+            criterion's meaning and how to be accessible.
+          </p>
+        </div>
+        <div>
+          <div class="lg:flex lg:flex-auto lg:justify-center">
+            <dl class="grid max-w-xl grid-cols-1 gap-8 sm:grid-cols-2 mt-5">
+              <div
+                class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6"
+              >
+                <dt class="text-sm leading-6 text-gray-600">Level A tests</dt>
+                <dd
+                  class="order-first text-3xl font-semibold tracking-tight text-gray-900"
+                >
+                  59
+                </dd>
+              </div>
+              <div
+                class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6"
+              >
+                <dt class="text-sm leading-6 text-gray-600">Level AA tests</dt>
+                <dd
+                  class="order-first text-3xl font-semibold tracking-tight text-gray-900"
+                >
+                  45
+                </dd>
+              </div>
+              <div
+                class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6"
+              >
+                <dt class="text-sm leading-6 text-gray-600">Level AAA tests</dt>
+                <dd
+                  class="order-first text-3xl font-semibold tracking-tight text-gray-900"
+                >
+                  10
+                </dd>
+              </div>
+              <div
+                class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6"
+              >
+                <dt class="text-sm leading-6 text-gray-600">Best practice</dt>
+                <dd
+                  class="order-first text-3xl font-semibold tracking-tight text-gray-900"
+                >
+                  0
+                </dd>
+              </div>
+            </dl>
+          </div>
         </div>
       </div>
     </div>
-
-  </nav>
-      
-  <div class="pb-12 pt-5 shadow" style="background-image: url(https://heroicons.com/_next/static/media/beams.1fcfd97b.jpg);">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 grid grid-cols-2">
-      <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="mt-2 text-4xl font-bold tracking-tight text-[#0A5470] sm:text-6xl">Web accessibility simplified</h2>
-        <p class="mt-6 text-lg leading-6 font-normal text-black">Build and test against WCAG consistently. Understand each success criterion's meaning and how to be accessible.</p>
-      </div>
-      <div>
-        <div class="lg:flex lg:flex-auto lg:justify-center">
-          <dl class=" grid max-w-xl grid-cols-1 gap-8 sm:grid-cols-2 mt-5">
-            <div class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
-              <dt class="text-sm leading-6 text-gray-600">Level A tests</dt>
-              <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">59</dd>
-            </div>
-            <div class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
-              <dt class="text-sm leading-6 text-gray-600">Level AA tests</dt>
-              <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">45</dd>
-            </div>
-            <div class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
-              <dt class="text-sm leading-6 text-gray-600">Level AAA tests</dt>
-              <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">10</dd>
-            </div>
-            <div class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
-              <dt class="text-sm leading-6 text-gray-600">Best practice</dt>
-              <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">0</dd>
-            </div>
-          </dl>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  
-  
-
- 
-
-
 
     <div class="container mx-auto max-w-7xl">
+      <div class="shadow bg-white mx-0 my-10">
+        <div class="pb-10 bg-slate-50 border-b pt-10">
+          <div
+            class="mx-auto max-w-7xl px-4 py-3 sm:flex sm:items-center sm:px-6 lg:px-8"
+          >
+            <h3 class="text-base font-medium text-gray-500">
+              Filters
+              <span class="sr-only">, active</span>
+            </h3>
 
+            <div
+              aria-hidden="true"
+              class="hidden h-5 w-px bg-gray-300 sm:ml-4 sm:block"
+            ></div>
 
-      
-      
-
-    <div class=" shadow bg-white  mx-0 my-10">
-        
-
-      
-      
-
-      <div class=" pb-10 bg-slate-50 border-b pt-10">
-        <div class="mx-auto max-w-7xl px-4 py-3 sm:flex sm:items-center sm:px-6 lg:px-8">
-          <h3 class="text-base font-medium text-gray-500">
-            Filters
-            <span class="sr-only">, active</span>
-          </h3>
-  
-          <div aria-hidden="true" class="hidden h-5 w-px bg-gray-300 sm:ml-4 sm:block"></div>
-  
-          <div class="mt-2 sm:ml-4 sm:mt-0">
-            <div class="-m-1 flex flex-wrap items-center">
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Single A</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Double A</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-                            
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Triple A</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-                            
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 py-1.5 pl-3 pr-2 text-sm font-medium bg-green-100 text-green-700">
-                <span>v2.1</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-                            
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>v2.2</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-                            
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Audio and Video</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-                            
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Colour</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-                            
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Content</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Custom Controls</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Dynamic Content</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Font Size</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Forms and UI</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Keyboard</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Link</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Quick Win</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-
-              <span class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900">
-                <span>Structure</span>
-                <button type="button" class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500">
-                  <span class="sr-only">Remove filter for Objects</span>
-                  <svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
-                    <path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
-                  </svg>
-                </button>
-              </span>
-
+            <div class="mt-2 sm:ml-4 sm:mt-0">
+              <div id="filters" class="-m-1 flex flex-wrap items-center">
+              </div>
             </div>
-          
-        </div>
-    </div>
-</div>
-
-
-      <div class="px-4 sm:px-6 lg:px-8  pt-10">
-        <div class="sm:flex sm:items-center">
-          <div class="sm:flex-auto">
-            <h1 class="text-xl font-semibold leading-6 text-gray-900">Showing 86 tests</h1>
-            <p class="mt-2 text-sm text-gray-700">Filtered by all categories</p>
           </div>
-
         </div>
-        <div class="mt-8 flow-root">
-          <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-            <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
-              <table class="min-w-full divide-y divide-gray-300">
-                <thead>
-                  <tr>
-                    <th scope="col" class="w-1/6 py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Level and Version</th>
-                    <th scope="col" class="w-1/6 px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Success Criterion</th>
-                    <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Test</th>
 
-        
-                  </tr>
-                </thead>
-                <tbody class="divide-y divide-gray-200">
-                  <tr>
-                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                      <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                      <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                    </td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-             
-                  </tr>
-                  <tr>
-                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                      <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                      <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                    </td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-900">Front-end Developer</td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-900">lindsay.walton@example.com</td>
-
-                
-                  </tr>                  <tr>
-                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                      <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                      <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                    </td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-              
-                  </tr>                  <tr>
-                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                      <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                      <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                    </td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-              
-                  </tr>                  <tr>
-                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                      <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                      <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                    </td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-               
-                  </tr>                  <tr>
-                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                      <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                      <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                    </td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                 
-                  </tr>                  <tr>
-                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                      <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                      <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                    </td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-              
-                  </tr>                  <tr>
-                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                      <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                      <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                    </td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                
-                  </tr>                  <tr>
-                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                      <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                      <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                    </td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                  </tr>                  <tr>
-                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                      <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                      <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                    </td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                   
-                  </tr>                  <tr>
-                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                      <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                      <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                    </td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                 
-                  </tr>                  <tr>
-                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                      <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                      <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                    </td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                    
-                  </tr>
-                </tr>                  <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                    <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                    <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                </tr>                  </tr>                  <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                    <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                    <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                </tr>                  </tr>                  <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                    <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                    <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                </tr>                  </tr>                  <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                    <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                    <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                </tr>                  </tr>                  <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                    <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                    <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                </tr>                  </tr>                  <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                    <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                    <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                </tr>                  </tr>                  <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                    <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                    <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                </tr>                  </tr>                  <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                    <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                    <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                </tr>                  </tr>                  <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                    <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                    <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                </tr>                  </tr>                  <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                    <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                    <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                </tr>                  </tr>                  <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                    <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                    <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                </tr>                  </tr>                  <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                    <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                    <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                </tr>                  </tr>                  <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-
-                    <span class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Single A</span>
-                    <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10">v2.2</span>
-
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
-
-                  
-                </tr>                 
-                  <!-- More people... -->
-                </tbody>
-              </table>
+        <div class="px-4 sm:px-6 lg:px-8 pt-10">
+          <div class="sm:flex sm:items-center">
+            <div class="sm:flex-auto">
+              <h1 class="text-xl font-semibold leading-6 text-gray-900">
+                Showing 86 tests
+              </h1>
+              <p class="mt-2 text-sm text-gray-700">
+                Filtered by all categories
+              </p>
+            </div>
+          </div>
+          <div class="mt-8 flow-root">
+            <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+              <div
+                class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8"
+              >
+                <table class="min-w-full divide-y divide-gray-300">
+                  <thead>
+                    <tr>
+                      <th
+                        scope="col"
+                        class="w-1/6 py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0"
+                      >
+                        Level and Version
+                      </th>
+                      <th
+                        scope="col"
+                        class="w-1/6 px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                      >
+                        Success Criterion
+                      </th>
+                      <th
+                        scope="col"
+                        class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                      >
+                        Test
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-gray-200">
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-900"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-900"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0"
+                      >
+                        <span
+                          class="inline-flex items-center rounded-full bg-gray-50 px-2 py-1 text-s font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                          >Single A</span
+                        >
+                        <span
+                          class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-s font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                          >v2.2</span
+                        >
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        Front-end Developer
+                      </td>
+                      <td
+                        class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                      >
+                        lindsay.walton@example.com
+                      </td>
+                    </tr>
+                    <!-- More people... -->
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      
-    
- 
-    
-  </div>
+    </div>
 
-</div>
-  
-<div class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
-  <div class="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl" aria-hidden="true">
-    <div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)"></div>
-  </div>
-  <div class="absolute left-[max(45rem,calc(50%+8rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl" aria-hidden="true">
-    <div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)"></div>
-  </div>
-  <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
-    <p class="text-sm leading-6 text-gray-900">
-      <strong class="font-semibold">GeneriCon 2023</strong><svg viewBox="0 0 2 2" class="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true"><circle cx="1" cy="1" r="1" /></svg>Join us in Denver from June 7 – 9 to see what’s coming next.
-    </p>
-    <a href="#" class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Register now <span aria-hidden="true">&rarr;</span></a>
-  </div>
-  <div class="flex flex-1 justify-end">
+    <div
+      class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1"
+    >
+      <div
+        class="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
+        aria-hidden="true"
+      >
+        <div
+          class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30"
+          style="
+            clip-path: polygon(
+              74.8% 41.9%,
+              97.2% 73.2%,
+              100% 34.9%,
+              92.5% 0.4%,
+              87.5% 0%,
+              75% 28.6%,
+              58.5% 54.6%,
+              50.1% 56.8%,
+              46.9% 44%,
+              48.3% 17.4%,
+              24.7% 53.9%,
+              0% 27.9%,
+              11.9% 74.2%,
+              24.9% 54.1%,
+              68.6% 100%,
+              74.8% 41.9%
+            );
+          "
+        ></div>
+      </div>
+      <div
+        class="absolute left-[max(45rem,calc(50%+8rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
+        aria-hidden="true"
+      >
+        <div
+          class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30"
+          style="
+            clip-path: polygon(
+              74.8% 41.9%,
+              97.2% 73.2%,
+              100% 34.9%,
+              92.5% 0.4%,
+              87.5% 0%,
+              75% 28.6%,
+              58.5% 54.6%,
+              50.1% 56.8%,
+              46.9% 44%,
+              48.3% 17.4%,
+              24.7% 53.9%,
+              0% 27.9%,
+              11.9% 74.2%,
+              24.9% 54.1%,
+              68.6% 100%,
+              74.8% 41.9%
+            );
+          "
+        ></div>
+      </div>
+      <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
+        <p class="text-sm leading-6 text-gray-900">
+          <strong class="font-semibold">GeneriCon 2023</strong
+          ><svg
+            viewBox="0 0 2 2"
+            class="mx-2 inline h-0.5 w-0.5 fill-current"
+            aria-hidden="true"
+          >
+            <circle cx="1" cy="1" r="1" />
+          </svg>
+          >Join us in Denver from June 7 – 9 to see what’s coming next.
+        </p>
+        <a
+          href="#"
+          class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
+          >Register now <span aria-hidden="true">&rarr;</span></a
+        >
+      </div>
+      <div class="flex flex-1 justify-end"></div>
+    </div>
 
-  </div>
-</div>
-
-
-<!--
+    <!--
   This example requires some changes to your config:
   
   ```
@@ -611,117 +876,210 @@
   }
   ```
 -->
-<footer class="bg-gray-900" aria-labelledby="footer-heading">
-  <h2 id="footer-heading" class="sr-only">Footer</h2>
-  <div class="mx-auto max-w-7xl px-6 pb-8 pt-20 sm:pt-24 lg:px-8 lg:pt-32">
-    <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-      <div class="grid grid-cols-2 gap-8 xl:col-span-2">
-        <div class="md:grid md:grid-cols-2 md:gap-8">
-          <div>
-            <h3 class="text-sm font-semibold leading-6 text-white">Solutions</h3>
-            <ul role="list" class="mt-6 space-y-4">
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Marketing</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Analytics</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Commerce</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Insights</a>
-              </li>
-            </ul>
+    <footer class="bg-gray-900" aria-labelledby="footer-heading">
+      <h2 id="footer-heading" class="sr-only">Footer</h2>
+      <div class="mx-auto max-w-7xl px-6 pb-8 pt-20 sm:pt-24 lg:px-8 lg:pt-32">
+        <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+          <div class="grid grid-cols-2 gap-8 xl:col-span-2">
+            <div class="md:grid md:grid-cols-2 md:gap-8">
+              <div>
+                <h3 class="text-sm font-semibold leading-6 text-white">
+                  Solutions
+                </h3>
+                <ul role="list" class="mt-6 space-y-4">
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Marketing</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Analytics</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Commerce</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Insights</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="mt-10 md:mt-0">
+                <h3 class="text-sm font-semibold leading-6 text-white">
+                  Support
+                </h3>
+                <ul role="list" class="mt-6 space-y-4">
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Pricing</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Documentation</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Guides</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >API Status</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="md:grid md:grid-cols-2 md:gap-8">
+              <div>
+                <h3 class="text-sm font-semibold leading-6 text-white">
+                  Company
+                </h3>
+                <ul role="list" class="mt-6 space-y-4">
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Jobs</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Press</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Partners</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="mt-10 md:mt-0">
+                <h3 class="text-sm font-semibold leading-6 text-white">
+                  Legal
+                </h3>
+                <ul role="list" class="mt-6 space-y-4">
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Claim</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Privacy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >Terms</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="mt-10 md:mt-0">
-            <h3 class="text-sm font-semibold leading-6 text-white">Support</h3>
-            <ul role="list" class="mt-6 space-y-4">
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Pricing</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Documentation</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Guides</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">API Status</a>
-              </li>
-            </ul>
+          <div class="mt-10 xl:mt-0">
+            <h3 class="text-sm font-semibold leading-6 text-white">
+              Subscribe to our newsletter
+            </h3>
+            <p class="mt-2 text-sm leading-6 text-gray-300">
+              The latest news, articles, and resources, sent to your inbox
+              weekly.
+            </p>
+            <form class="mt-6 sm:flex sm:max-w-md">
+              <label for="email-address" class="sr-only">Email address</label>
+              <input
+                type="email"
+                name="email-address"
+                id="email-address"
+                autocomplete="email"
+                required
+                class="w-full min-w-0 appearance-none rounded-md border-0 bg-white/5 px-3 py-1.5 text-base text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
+                placeholder="Enter your email"
+              />
+              <div class="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
+                <button
+                  type="submit"
+                  class="flex w-full items-center justify-center rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
           </div>
         </div>
-        <div class="md:grid md:grid-cols-2 md:gap-8">
-          <div>
-            <h3 class="text-sm font-semibold leading-6 text-white">Company</h3>
-            <ul role="list" class="mt-6 space-y-4">
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">About</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Blog</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Jobs</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Press</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Partners</a>
-              </li>
-            </ul>
+        <div
+          class="mt-16 border-t border-white/10 pt-8 sm:mt-20 md:flex md:items-center md:justify-between lg:mt-24"
+        >
+          <div class="flex space-x-6 md:order-2">
+            <a href="#" class="text-gray-500 hover:text-gray-400">
+              <span class="sr-only">X</span>
+              <svg
+                class="h-6 w-6"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z"
+                />
+              </svg>
+            </a>
           </div>
-          <div class="mt-10 md:mt-0">
-            <h3 class="text-sm font-semibold leading-6 text-white">Legal</h3>
-            <ul role="list" class="mt-6 space-y-4">
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Claim</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Privacy</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Terms</a>
-              </li>
-            </ul>
-          </div>
+          <p class="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">
+            &copy; 2020 Your Company, Inc. All rights reserved.
+          </p>
         </div>
       </div>
-      <div class="mt-10 xl:mt-0">
-        <h3 class="text-sm font-semibold leading-6 text-white">Subscribe to our newsletter</h3>
-        <p class="mt-2 text-sm leading-6 text-gray-300">The latest news, articles, and resources, sent to your inbox weekly.</p>
-        <form class="mt-6 sm:flex sm:max-w-md">
-          <label for="email-address" class="sr-only">Email address</label>
-          <input type="email" name="email-address" id="email-address" autocomplete="email" required class="w-full min-w-0 appearance-none rounded-md border-0 bg-white/5 px-3 py-1.5 text-base text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:w-64 sm:text-sm sm:leading-6 xl:w-full" placeholder="Enter your email">
-          <div class="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
-            <button type="submit" class="flex w-full items-center justify-center rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Subscribe</button>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 md:flex md:items-center md:justify-between lg:mt-24">
-      <div class="flex space-x-6 md:order-2">
-        
-        <a href="#" class="text-gray-500 hover:text-gray-400">
-          <span class="sr-only">X</span>
-          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
-          </svg>
-        </a>
-        
-      </div>
-      <p class="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">&copy; 2020 Your Company, Inc. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
-
-
-
-
-
-
-   
-</body>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
