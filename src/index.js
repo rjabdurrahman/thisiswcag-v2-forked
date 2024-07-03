@@ -3,6 +3,7 @@ let filteredTests = wcagObj.tests;
 
 const filterContainer = document.getElementById('filters');
 const tableBodyContainer = document.getElementById('dataTable');
+const testCountEl = document.getElementById('testCount');
 
 const uniqeLevels = [
   'Single A',
@@ -66,6 +67,7 @@ const filterButtons = [uniqeLevels, uniqeLVersions, uniqeCategories]
 filterContainer.innerHTML = filterButtons.join('')
 
 function renderTable() {
+  testCountEl.innerText = `Showing ${filteredTests.length} tests`;
   tableBodyContainer.innerHTML = filteredTests
     .map(({
       wcagLevel,
