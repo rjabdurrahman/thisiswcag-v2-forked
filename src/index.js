@@ -5,18 +5,18 @@ const filterContainer = document.getElementById('filters');
 const tableBodyContainer = document.getElementById('dataTable');
 const testCountEl = document.getElementById('testCount');
 
-const uniqeLevels = [
+const levels = [
   'Single A',
   'Double A',
   'Triple A'
 ]
 
-const uniqeLVersions = [
+const versions = [
   'v2.1',
   'v2.2'
 ]
 
-const uniqeCategories = [
+const categories = [
   "Audio and video",
   "Colour",
   "Content",
@@ -32,10 +32,25 @@ const uniqeCategories = [
 
 window.handleFilterClose = function (name) {
   filterContainer.removeChild(document.getElementsByName(name)[0])
-  console.log([...filterContainer.children].map(x => x.getAttribute('name')))
+  const selectedFilters = [...filterContainer.children].map(x => x.getAttribute('name'));
+
+  const selectedLevels = intersection(levels, selectedFilters).map(x => {
+    if (x === 'Single A') return 'A';
+    else if (x === 'Double A') return 'AA';
+    else if (x === 'Triple A') return 'AAA';
+  });
+  const selectedVersions = intersection(versions, selectedFilters).map(x => x.replace('v', ''));
+  const selectedCategories = intersection(categories, selectedFilters);
+  renderTable(
+    wcagObj.tests.filter(test => {
+      return selectedLevels.indexOf(test.wcagLevel) >= 0
+        && selectedVersions.indexOf(test.wcagVersion) >= 0
+        && selectedCategories.filter(x => test.category.indexOf(x) >= 0).length
+    })
+  );
 }
 
-const filterButtons = [uniqeLevels, uniqeLVersions, uniqeCategories]
+const filterButtons = [levels, versions, categories]
   .flat()
   .map((name) => `<span
                   class="m-1 inline-flex items-center rounded-full border border-gray-200 bg-white py-1.5 pl-3 pr-2 text-sm font-medium text-gray-900"
@@ -66,9 +81,9 @@ const filterButtons = [uniqeLevels, uniqeLVersions, uniqeCategories]
 
 filterContainer.innerHTML = filterButtons.join('')
 
-function renderTable() {
-  testCountEl.innerText = `Showing ${filteredTests.length} tests`;
-  tableBodyContainer.innerHTML = filteredTests
+function renderTable(tests = wcagObj.tests) {
+  testCountEl.innerText = `Showing ${tests.length} tests`;
+  tableBodyContainer.innerHTML = tests
     .map(({
       wcagLevel,
       wcagVersion,
@@ -118,4 +133,8 @@ function urlify(text) {
     .replace(urlRegex, function (url) {
       return '<a href="' + url + '">' + url + '</a>';
     })
+}
+
+function intersection(arr1, arr2) {
+  return arr1.filter(value => arr2.includes(value));
 }
